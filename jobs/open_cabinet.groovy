@@ -1,4 +1,4 @@
-PipelineJob('bento-devops-open-cabinet') {
+multibranchPipelineJob('bento Open Cabinet') {
     branchSources {
         git {
             remote('https://github.com/excellaco/open-cabinet.git')
